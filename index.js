@@ -6,7 +6,7 @@ function taxable(state, taxExempt){
 }
 
 function isVehicle(hasWheels, canFly, canSwim){
-    if (hasWheels == true || canFly == true || canSwim == true){
+    if (hasWheels === true || canFly === true || canSwim === true){
         return 'is vehicle';
     }
 }
